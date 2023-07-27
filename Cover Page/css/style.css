@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 10px 20px;
+}
+
+#logo img {
+    height: 50px;
+    margin: 0 10px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: bisque;
+    display: block;
+    margin-top: 1px;
+    padding: 15px 26px;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
+#navbar ul li a:hover {
+    /* background-color: lightcoral; */
+    margin-top: 0px;
+    color: lightcoral;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 20px 20px 46px black;
+}
+
+#navbar ul li a:active {
+    /* background-color: lightcoral; */
+    margin-top: 0px;
+    transition-duration: 10ms;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 20px 20px 46px transparent;
+}
+
+.user {
+    display: flex;
+    padding-left: 20rem;
+}
+
+.ubtn {
+    border: none;
+    color: whitesmoke;
+    background-color: crimson;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    height: 2.5rem;
+    width: 8rem;
+    margin: 2%;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
+.ubtn:hover {
+    background-color: antiquewhite;
+    color: black;
+    box-shadow: 0 0 46px crimson;
+}
+
+.ubtn:active {
+    background-color: black;
+    color: antiquewhite;
+    box-shadow: 0 0 46px white;
+    transition-duration: 0.2s;
+}
+
+/* Initial  */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url(../img/background2.jpg) no-repeat center center/cover;
+    height: 550px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#home h1 {
+    font-family: 'Abril Fatface',
+        cursive;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0 0 18px black;
+}
+
+#home p {
+    font-family: 'Ubuntu',
+        sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.primary {
+    font-family: sans-serif;
+    font-size: 3.8rem;
+    padding: 20px;
+}
+
+#topbtn {
+    display: flex;
+}
+
+#topbtn button {
+    display: flex;
+    margin: 1rem;
+}
+
+/* Service Section */
+.btn {
+    margin-top: 50px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: all;
+    transition-duration: 0.7s;
+    /* transition: background-color 1s ease-in-out 1s; */
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+    color: black;
+    box-shadow: 0 0 46px crimson;
+    font-size: 25px;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px;
+}
+
+.btn:active {
+    transition-duration: 10ms;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0 0 46px crimson;
+    font-size: 25px;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px;
+}
+
+/* Service Section */
+#sContainer {
+    /* border-bottom: 1px solid black; */
+    /* background-color: silver; */
+    background: url('../img/background.jpg') no-repeat center center/cover;
+    padding: 1px;
+}
+
+.center {
+    text-align: center;
+}
+
+.services {
+    border: 3px solid black;
+    background-color: bisque;
+    margin: 34px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 10px 20px;
+}
+
+.secondary {
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+.services .box {
+    border: 3px dashed black;
+    display: flex;
+    flex-direction: row;
+    background-color: #ef02024d;
+    padding: 10px;
+}
+
+.services .box p {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem
+}
+
+.services .box img {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+#client {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hSecondary {
+    padding: 12px;
+    font-size: 5rem;
+    color: black;
+    text-shadow: 0 0 10px white;
+}
+
+#client::before {
+    content: "";
+    position: absolute;
+    background: url('../img/background3.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#client div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clientID img {
+    width: 50%;
+}
+
+/* Contact */
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../img/ContctUs.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;
+}
+
+#contact {
+    position: relative;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactBox form {
+    font-size: 1.3rem;
+}
+
+#contactBox input,
+#contactBox textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: .9rem;
+    background: none;
+}
+
+#contactBox label {
+    font-size: 1.5rem;
+}
+
+.lbtn {
+    background: none;
+    color: black;
+    padding: 5px 0px;
+    width: 150px;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 1px 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
