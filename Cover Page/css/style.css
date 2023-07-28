@@ -37,6 +37,19 @@
     opacity: 0.2;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a:active {
+    color: white;
+}
+
 #navbar ul li {
     list-style: none;
     font-size: 1.3rem;
@@ -153,6 +166,7 @@
 
 #topbtn {
     display: flex;
+    margin-top: 3rem;
 }
 
 #topbtn button {
