@@ -30,5 +30,10 @@
 
 .carousel {
     width: 100%;
-    padding: 1rem 3rem;
+    padding: .5rem 1rem;
+}
+
+.carousel-inner {
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem black;
 }

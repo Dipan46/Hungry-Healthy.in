@@ -28,6 +28,10 @@
     padding: 10px 28px;
 }
 
+#topbtn {
+    margin-top: 0rem;
+}
+
 #home::before {
     height: 550px;
 }
@@ -44,6 +48,14 @@
 #sContainer h2 {
     display: flex;
     justify-content: space-evenly;
+}
+
+.hSecondary {
+    font-size: 3rem;
+}
+
+.services {
+    margin: 0.5rem;
 }
 
 /* Services section  */
