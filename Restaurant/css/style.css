@@ -100,7 +100,7 @@ a:active {
 .ubtn {
     border: none;
     color: whitesmoke;
-    background-color: crimson;
+    background-color: #268c5b;
     font-family: Arial,
         Helvetica,
         sans-serif;
@@ -115,8 +115,8 @@ a:active {
 
 .ubtn:hover {
     background-color: antiquewhite;
-    color: black;
-    box-shadow: 0 0 46px crimson;
+    color: #268c5b;
+    box-shadow: 0 0 9px 1px #268c5b;
 }
 
 .ubtn:active {
@@ -185,6 +185,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-around;
+    align-items: center;
     margin-bottom: 20px;
 }
 

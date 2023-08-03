@@ -37,3 +37,28 @@
     border-radius: 1rem;
     box-shadow: 0 0 1rem black;
 }
+
+/* Restaurants */
+#res {
+    padding: 0rem 0rem;
+}
+
+#res h1 {
+    margin: 4rem 0rem 3rem;
+}
+
+.category-section {
+    grid-template-columns: auto;
+}
+
+.category-section div {
+    display: flex;
+}
+
+.category-section img {
+    width: 10rem;
+}
+
+.rimg {
+    width: 23rem;
+}
