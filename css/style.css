@@ -71,7 +71,7 @@ a:active {
     color: lightcoral;
     text-decoration: none;
     border-radius: 20px;
-    box-shadow: 20px 20px 46px black;
+    box-shadow: 7px 7px 11px 0px #000000a3;
 }
 
 #navbar ul li a:active {
@@ -80,7 +80,7 @@ a:active {
     transition-duration: 10ms;
     text-decoration: none;
     border-radius: 20px;
-    box-shadow: 20px 20px 46px transparent;
+    box-shadow: inset 7px 7px 11px 0px #000000a3;
 }
 
 .user {
@@ -96,7 +96,7 @@ a:active {
         Helvetica,
         sans-serif;
     font-size: 16px;
-    border-radius: 30px;
+    border-radius: 0.6rem;
     height: 2.5rem;
     width: 8rem;
     margin: 2%;
@@ -107,7 +107,7 @@ a:active {
 .ubtn:hover {
     background-color: antiquewhite;
     color: black;
-    box-shadow: 0 0 46px crimson;
+    box-shadow: 0 0 46px #000000;
 }
 
 .ubtn:active {
@@ -194,7 +194,7 @@ a:active {
 .btn:hover {
     background-color: antiquewhite;
     color: black;
-    box-shadow: 0 0 46px crimson;
+    box-shadow: 0 0 46px #0000006c;
     font-size: 25px;
     height: 80px;
     width: 200px;
@@ -205,7 +205,7 @@ a:active {
     transition-duration: 10ms;
     background-color: black;
     color: whitesmoke;
-    box-shadow: 0 0 46px crimson;
+    box-shadow: 0 0 46px whitesmoke;
     font-size: 25px;
     height: 80px;
     width: 200px;
