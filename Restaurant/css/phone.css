@@ -67,6 +67,14 @@
     display: flex;
 }
 
+.category-section div:active {
+    height: auto;
+}
+
+.category-section div:hover {
+    height: auto;
+}
+
 .category-section img {
     width: 10rem;
 }
