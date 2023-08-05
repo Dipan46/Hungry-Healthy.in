@@ -187,17 +187,18 @@ body {
 
 .category-section div {
     text-align: center;
+    border-radius: 1rem;
     margin: 1rem;
     box-shadow: 0px -18px 24px -19px #00000061;
 }
 
 .category-section div:hover {
-    border-radius: 1rem;
-    box-shadow: 0px 0px 4rem 1px #09090965;
+    height: 14rem;
 }
 
 .rimg img {
-    height: 13rem;
+    border-radius: 1rem;
+    height: 12rem;
 }
 
 .category-section img {
