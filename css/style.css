@@ -307,6 +307,7 @@ a:active {
 
 #contact {
     position: relative;
+    padding: 2rem 1rem;
     display: flex;
     color: black;
     flex-direction: column;
