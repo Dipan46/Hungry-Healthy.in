@@ -23,6 +23,14 @@
     padding-bottom: 8px;
 }
 
+#navbar ul li a:hover {
+    border-radius: 10px;
+}
+
+#navbar ul li a:active {
+    border-radius: 10px;
+}
+
 .user {
     padding: 0px;
     justify-content: center;
