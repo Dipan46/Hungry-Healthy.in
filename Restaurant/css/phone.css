@@ -73,4 +73,9 @@
 
 .rimg {
     width: 23rem;
+    align-items: center;
+}
+
+.rimg img {
+    height: auto;
 }
