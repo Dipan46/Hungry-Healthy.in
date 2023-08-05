@@ -87,3 +87,8 @@
 .rimg img {
     height: auto;
 }
+
+#lbtn {
+    display: grid;
+    grid-template-columns: auto auto;
+}
