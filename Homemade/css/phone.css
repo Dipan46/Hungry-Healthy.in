@@ -1,0 +1,102 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    height: 4rem;
+}
+
+#navbar ul {
+    justify-content: space-evenly;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#navbar ul li a:hover {
+    border-radius: 10px;
+}
+
+#navbar ul li a:active {
+    border-radius: 10px;
+}
+
+.user {
+    padding: 0px;
+    justify-content: center;
+}
+
+#navbar ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+/* Slide */
+#slid {
+    grid-template-columns: auto auto;
+    padding-top: 0.5rem;
+}
+
+.carousel {
+    width: 100%;
+    padding: .5rem 1rem;
+}
+
+.carousel-inner {
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem black;
+}
+
+/* Restaurants */
+#res {
+    padding: 0rem 0rem;
+}
+
+#res h1 {
+    margin: 3rem 0rem 1rem;
+    font-size: 3.5rem;
+}
+
+.category-section {
+    grid-template-columns: auto;
+}
+
+.category-section div {
+    display: flex;
+}
+
+.category-section div:active {
+    height: auto;
+}
+
+.category-section div:hover {
+    height: auto;
+}
+
+.category-section img {
+    width: 10rem;
+}
+
+.rimg {
+    width: 23rem;
+    align-items: center;
+}
+
+.rimg img {
+    height: auto;
+}
+
+#lbtn {
+    display: grid;
+    grid-template-columns: auto auto;
+}
