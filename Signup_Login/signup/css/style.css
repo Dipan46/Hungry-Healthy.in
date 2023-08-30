@@ -51,6 +51,17 @@ label {
     font-size: 1.4rem;
 }
 
+.btn:hover {
+    background-color: #00000000;
+    color: black;
+    box-shadow: 7px 7px 11px 0px #000000a3;
+}
+
+a:hover {
+    background-color: #00000000;
+    color: black;
+}
+
 /* footer */
 footer {
     display: flex;
