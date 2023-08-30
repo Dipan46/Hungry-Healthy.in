@@ -194,10 +194,10 @@ a:active {
     background-color: antiquewhite;
     color: black;
     box-shadow: 0 0 46px #0000006c;
-    font-size: 25px;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px;
+    font-size: 20px;
+    height: 60px;
+    width: 164px;
+    border-radius: 1rem;
 }
 
 .btn:active {
@@ -205,10 +205,10 @@ a:active {
     background-color: black;
     color: whitesmoke;
     box-shadow: 0 0 46px whitesmoke;
-    font-size: 25px;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px;
+    font-size: 20px;
+    height: 60px;
+    width: 164px;
+    border-radius: 1rem;
 }
 
 /* Service Section */
