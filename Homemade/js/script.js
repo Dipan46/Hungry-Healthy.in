@@ -1,3 +1,3 @@
 function openNewPage() {
-    window.location.href = "../../Foods/foods.html";
+    window.location.href = "../../../Foods/foods.html";
 }
