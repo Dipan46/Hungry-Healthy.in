@@ -71,15 +71,15 @@
     grid-template-columns: auto;
 }
 
-.category-section div {
+.category-section button {
     display: flex;
 }
 
-.category-section div:active {
+.category-section button:active {
     height: auto;
 }
 
-.category-section div:hover {
+.category-section button:hover {
     height: auto;
 }
 
