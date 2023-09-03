@@ -184,18 +184,24 @@ body {
     margin-bottom: 20px;
 }
 
-.category-section div {
+.category-section button {
     text-align: center;
     border-radius: 1rem;
     margin: 1rem;
     box-shadow: 0px -18px 24px -19px #00000061;
 }
 
-.category-section div:hover {
+.category-section button:hover {
     height: 14rem;
 }
 
+.rimg {
+    border: none;
+    background: transparent;
+}
+
 .rimg img {
+
     border-radius: 1rem;
     height: 12rem;
 }
