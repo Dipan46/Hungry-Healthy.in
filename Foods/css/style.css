@@ -198,6 +198,25 @@ body {
     box-shadow: 0px -18px 24px -19px #00000061;
 }
 
+#cart {
+    display: flex;
+    justify-content: center;
+}
+
+#cart button {
+    border: none;
+    padding: 5px 0px;
+    width: 100px;
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#cart button:hover {
+    box-shadow: 0 0 9px 1px #000000;
+}
+
 /* footer */
 footer {
     display: flex;
