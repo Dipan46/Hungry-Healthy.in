@@ -72,15 +72,16 @@
     color: white;
 }
 
+#lbtn {
+    display: flex;
+    cursor: pointer;
+}
+
 .lbtn {
     background: none;
     color: white;
-    padding: 5px 0px;
-    width: 150px;
-    margin: 17px;
-    font-size: 1.5rem;
     border-radius: 10px;
-    cursor: pointer;
+    margin: 0.5rem;
 }
 
 .center {

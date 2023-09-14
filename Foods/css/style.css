@@ -142,49 +142,6 @@ body {
     opacity: 1;
 } */
 
-#contact {
-    padding: 2rem 1rem;
-    position: relative;
-    display: flex;
-    color: #ffff;
-    background-color: #222831;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#contactBox form {
-    font-size: 1.3rem;
-}
-
-#contactBox input,
-#contactBox textarea {
-    width: 100%;
-    padding: 0.5rem;
-    border-radius: 9px;
-    font-size: .9rem;
-}
-
-#contactBox label {
-    font-size: 1.5rem;
-    color: white;
-}
-
-.lbtn {
-    background: none;
-    color: white;
-    padding: 5px 0px;
-    width: 150px;
-    margin: 17px;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.center {
-    text-align: center;
-}
-
 /* ITEMS */
 #items {
     display: flex;
@@ -215,6 +172,46 @@ body {
 
 #cart button:hover {
     box-shadow: 0 0 9px 1px #000000;
+}
+
+/* Contact */
+#contact {
+    padding: 2rem 1rem;
+    position: relative;
+    display: flex;
+    color: #ffff;
+    background-color: #222831;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactBox form {
+    font-size: 1.3rem;
+}
+
+#contactBox input,
+#contactBox textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: .9rem;
+}
+
+.center {
+    text-align: center;
+}
+
+#lbtn {
+    display: flex;
+    cursor: pointer;
+}
+
+.lbtn {
+    background: none;
+    color: white;
+    border-radius: 10px;
+    margin: 0.5rem;
 }
 
 /* footer */
